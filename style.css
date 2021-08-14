@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Krub', sans-serif;
+}
+
+body{
+    background-color: #FFB4B4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);;
+}
+
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    height: 200px;
+}
+
+.img{
+    width: fit-content;
+}
+
+.text{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.hello{
+    background-color: #FF4848;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    font-size: 20px;
+    box-shadow: box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);;
+    cursor: pointer;
+}
+
+.hello:hover{
+    background-color: #fc3737;
+}
